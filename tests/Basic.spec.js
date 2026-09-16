@@ -14,7 +14,7 @@ test(' my first code', async ({ browser }) => {
     console.log(await page.locator("[style*='block']").textContent());
     //await page.locator("[style*='block']").textContent();
     await expect(page.locator("[style*='block']")).toContainText("Incor");
-    //demo
+    //demo checking for code in it
 
 
 
