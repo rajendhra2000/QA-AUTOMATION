@@ -10,7 +10,7 @@ export default defineConfig({
   expect: {
     timeout: 4000
   },
-  reporter: 'html',
+  //reporter: 'html',
 
 
   use: {
